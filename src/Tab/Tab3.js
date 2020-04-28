@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { View, Text ,StyleSheet} from 'react-native';
 
 
-Screen2 = () =>
-<View style={styles.center}>
-<Text style={styles.title}> Favourite </Text>
+Tab3 = () =>
+  <View style={styles.center}>
+    <Text style={styles.title}>Tab 2</Text>
   </View>
 
-export default Screen2;
+
+export default Tab3;
 
 const styles = StyleSheet.create({
   center: {
